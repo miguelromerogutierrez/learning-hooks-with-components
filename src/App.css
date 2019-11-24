@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: #FAFAFA;
+  height: 100vh;
+  padding: 40px 20px;
 }
 
 .App-logo {
@@ -19,4 +22,55 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.form-field {
+  width: 300px;
+}
+
+.dropdown--label {
+  width: 100%;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  text-align: left;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.dropdown--label i {
+  float: right;
+}
+
+.dropdown--option,
+.dropdown--options {
+  width: 100%;
+  font-size: 14px;
+}
+
+.dropdown--option:hover {
+  background: #cfd8dc;
+}
+
+.covers {
+  width: 75%;
+  margin: auto;
+}
+
+.covers-slider {
+  width: 400px;
+  margin: auto;
+}
+
+.cover-image {
+  width: 400px;
+  height: 220px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.cover-image div {
+  width: 400px;
+  height: 220px;
+  background-size: cover;
+  background-position: 50% 50%;
 }

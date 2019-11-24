@@ -1,0 +1,35 @@
+.dropdown {
+  &--container {
+    min-width: fit-content;
+    height: fit-content;
+    padding: 7px 10px;
+    position: relative;
+  }
+
+  &--label {
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+
+  &--options {
+    display: none;
+    background: white;
+    height: fit-content;
+    position: absolute;
+    left: 11px;
+
+    &.show {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &--option {
+    outline: none;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    text-align: left;
+  }
+}

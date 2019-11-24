@@ -1,0 +1,15 @@
+.cards-slider__container {
+  width: 100%;
+  overflow: hidden; 
+}
+
+.cards-slider__window {
+  display: flex;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.cards-slider__slide {
+  width: fit-content;
+}
